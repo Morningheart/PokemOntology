@@ -1,0 +1,1572 @@
+[
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "fighting"
+        }
+      ],
+      "double_damage_to": [],
+      "half_damage_from": [],
+      "half_damage_to": [
+        {
+          "name": "rock"
+        },
+        {
+          "name": "steel"
+        }
+      ],
+      "no_damage_from": [
+        {
+          "name": "ghost"
+        }
+      ],
+      "no_damage_to": [
+        {
+          "name": "ghost"
+        }
+      ]
+    },
+    "id": 1,
+    "name": "normal",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "psychic"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "normal"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "ice"
+        },
+        {
+          "name": "dark"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "rock"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "dark"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "poison"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "psychic"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": [
+        {
+          "name": "ghost"
+        }
+      ]
+    },
+    "id": 2,
+    "name": "fighting",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "rock"
+        },
+        {
+          "name": "electric"
+        },
+        {
+          "name": "ice"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "grass"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "grass"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "rock"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "electric"
+        }
+      ],
+      "no_damage_from": [
+        {
+          "name": "ground"
+        }
+      ],
+      "no_damage_to": []
+    },
+    "id": 3,
+    "name": "flying",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "ground"
+        },
+        {
+          "name": "psychic"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "grass"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "poison"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "poison"
+        },
+        {
+          "name": "ground"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "ghost"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": [
+        {
+          "name": "steel"
+        }
+      ]
+    },
+    "id": 4,
+    "name": "poison",
+    "past_damage_relations": [
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "ground"
+            },
+            {
+              "name": "psychic"
+            },
+            {
+              "name": "bug"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "grass"
+            },
+            {
+              "name": "bug"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "poison"
+            },
+            {
+              "name": "grass"
+            }
+          ],
+          "half_damage_to": [
+            {
+              "name": "poison"
+            },
+            {
+              "name": "ground"
+            },
+            {
+              "name": "rock"
+            },
+            {
+              "name": "ghost"
+            }
+          ],
+          "no_damage_from": [],
+          "no_damage_to": []
+        },
+        "generation": {
+          "name": "generation-i"
+        }
+      }
+    ],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "water"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "ice"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "poison"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "electric"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "poison"
+        },
+        {
+          "name": "rock"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "bug"
+        },
+        {
+          "name": "grass"
+        }
+      ],
+      "no_damage_from": [
+        {
+          "name": "electric"
+        }
+      ],
+      "no_damage_to": [
+        {
+          "name": "flying"
+        }
+      ]
+    },
+    "id": 5,
+    "name": "ground",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "ground"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "water"
+        },
+        {
+          "name": "grass"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "ice"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "normal"
+        },
+        {
+          "name": "flying"
+        },
+        {
+          "name": "poison"
+        },
+        {
+          "name": "fire"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "ground"
+        },
+        {
+          "name": "steel"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "id": 6,
+    "name": "rock",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "fire"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "grass"
+        },
+        {
+          "name": "psychic"
+        },
+        {
+          "name": "dark"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "ground"
+        },
+        {
+          "name": "grass"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "flying"
+        },
+        {
+          "name": "poison"
+        },
+        {
+          "name": "ghost"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "id": 7,
+    "name": "bug",
+    "past_damage_relations": [
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "flying"
+            },
+            {
+              "name": "rock"
+            },
+            {
+              "name": "fire"
+            },
+            {
+              "name": "poison"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "grass"
+            },
+            {
+              "name": "psychic"
+            },
+            {
+              "name": "poison"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "ground"
+            },
+            {
+              "name": "grass"
+            }
+          ],
+          "half_damage_to": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "flying"
+            },
+            {
+              "name": "ghost"
+            },
+            {
+              "name": "fire"
+            }
+          ],
+          "no_damage_from": [],
+          "no_damage_to": []
+        },
+        "generation": {
+          "name": "generation-i"
+        }
+      }
+    ],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "ghost"
+        },
+        {
+          "name": "dark"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "ghost"
+        },
+        {
+          "name": "psychic"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "poison"
+        },
+        {
+          "name": "bug"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "dark"
+        }
+      ],
+      "no_damage_from": [
+        {
+          "name": "normal"
+        },
+        {
+          "name": "fighting"
+        }
+      ],
+      "no_damage_to": [
+        {
+          "name": "normal"
+        }
+      ]
+    },
+    "id": 8,
+    "name": "ghost",
+    "past_damage_relations": [
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "ghost"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "ghost"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "poison"
+            },
+            {
+              "name": "bug"
+            }
+          ],
+          "half_damage_to": [],
+          "no_damage_from": [
+            {
+              "name": "normal"
+            },
+            {
+              "name": "fighting"
+            }
+          ],
+          "no_damage_to": [
+            {
+              "name": "normal"
+            },
+            {
+              "name": "psychic"
+            }
+          ]
+        },
+        "generation": {
+          "name": "generation-i"
+        }
+      },
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "ghost"
+            },
+            {
+              "name": "dark"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "ghost"
+            },
+            {
+              "name": "psychic"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "poison"
+            },
+            {
+              "name": "bug"
+            }
+          ],
+          "half_damage_to": [
+            {
+              "name": "dark"
+            },
+            {
+              "name": "steel"
+            }
+          ],
+          "no_damage_from": [
+            {
+              "name": "normal"
+            },
+            {
+              "name": "fighting"
+            }
+          ],
+          "no_damage_to": [
+            {
+              "name": "normal"
+            }
+          ]
+        },
+        "generation": {
+          "name": "generation-v"
+        }
+      }
+    ],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "ground"
+        },
+        {
+          "name": "fire"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "rock"
+        },
+        {
+          "name": "ice"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "normal"
+        },
+        {
+          "name": "flying"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "psychic"
+        },
+        {
+          "name": "ice"
+        },
+        {
+          "name": "dragon"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "water"
+        },
+        {
+          "name": "electric"
+        }
+      ],
+      "no_damage_from": [
+        {
+          "name": "poison"
+        }
+      ],
+      "no_damage_to": []
+    },
+    "id": 9,
+    "name": "steel",
+    "past_damage_relations": [
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "ground"
+            },
+            {
+              "name": "fire"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "rock"
+            },
+            {
+              "name": "ice"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "normal"
+            },
+            {
+              "name": "flying"
+            },
+            {
+              "name": "rock"
+            },
+            {
+              "name": "bug"
+            },
+            {
+              "name": "steel"
+            },
+            {
+              "name": "grass"
+            },
+            {
+              "name": "psychic"
+            },
+            {
+              "name": "ice"
+            },
+            {
+              "name": "dragon"
+            },
+            {
+              "name": "ghost"
+            },
+            {
+              "name": "dark"
+            }
+          ],
+          "half_damage_to": [
+            {
+              "name": "steel"
+            },
+            {
+              "name": "fire"
+            },
+            {
+              "name": "water"
+            },
+            {
+              "name": "electric"
+            }
+          ],
+          "no_damage_from": [
+            {
+              "name": "poison"
+            }
+          ],
+          "no_damage_to": []
+        },
+        "generation": {
+          "name": "generation-v"
+        }
+      }
+    ],
+    "generation_name": "generation-ii"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "ground"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "water"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "bug"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "ice"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "bug"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "ice"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "rock"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "water"
+        },
+        {
+          "name": "dragon"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "id": 10,
+    "name": "fire",
+    "past_damage_relations": [
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "ground"
+            },
+            {
+              "name": "rock"
+            },
+            {
+              "name": "water"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "bug"
+            },
+            {
+              "name": "grass"
+            },
+            {
+              "name": "ice"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "bug"
+            },
+            {
+              "name": "fire"
+            },
+            {
+              "name": "grass"
+            }
+          ],
+          "half_damage_to": [
+            {
+              "name": "rock"
+            },
+            {
+              "name": "fire"
+            },
+            {
+              "name": "water"
+            },
+            {
+              "name": "dragon"
+            }
+          ],
+          "no_damage_from": [],
+          "no_damage_to": []
+        },
+        "generation": {
+          "name": "generation-i"
+        }
+      }
+    ],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "grass"
+        },
+        {
+          "name": "electric"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "ground"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "fire"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "water"
+        },
+        {
+          "name": "ice"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "water"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "dragon"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "id": 11,
+    "name": "water",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "poison"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "ice"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "ground"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "water"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "ground"
+        },
+        {
+          "name": "water"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "electric"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "poison"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "dragon"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "id": 12,
+    "name": "grass",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "ground"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "water"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "electric"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "grass"
+        },
+        {
+          "name": "electric"
+        },
+        {
+          "name": "dragon"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": [
+        {
+          "name": "ground"
+        }
+      ]
+    },
+    "id": 13,
+    "name": "electric",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "bug"
+        },
+        {
+          "name": "ghost"
+        },
+        {
+          "name": "dark"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "poison"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "psychic"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "steel"
+        },
+        {
+          "name": "psychic"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": [
+        {
+          "name": "dark"
+        }
+      ]
+    },
+    "id": 14,
+    "name": "psychic",
+    "past_damage_relations": [
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "bug"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "poison"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "psychic"
+            }
+          ],
+          "half_damage_to": [
+            {
+              "name": "psychic"
+            }
+          ],
+          "no_damage_from": [
+            {
+              "name": "ghost"
+            }
+          ],
+          "no_damage_to": []
+        },
+        "generation": {
+          "name": "generation-i"
+        }
+      }
+    ],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "flying"
+        },
+        {
+          "name": "ground"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "dragon"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "ice"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        },
+        {
+          "name": "water"
+        },
+        {
+          "name": "ice"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "id": 15,
+    "name": "ice",
+    "past_damage_relations": [
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "rock"
+            },
+            {
+              "name": "fire"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "flying"
+            },
+            {
+              "name": "ground"
+            },
+            {
+              "name": "grass"
+            },
+            {
+              "name": "dragon"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "ice"
+            }
+          ],
+          "half_damage_to": [
+            {
+              "name": "water"
+            },
+            {
+              "name": "ice"
+            }
+          ],
+          "no_damage_from": [],
+          "no_damage_to": []
+        },
+        "generation": {
+          "name": "generation-i"
+        }
+      }
+    ],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "ice"
+        },
+        {
+          "name": "dragon"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "dragon"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "fire"
+        },
+        {
+          "name": "water"
+        },
+        {
+          "name": "grass"
+        },
+        {
+          "name": "electric"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "steel"
+        }
+      ],
+      "no_damage_from": [],
+      "no_damage_to": [
+        {
+          "name": "fairy"
+        }
+      ]
+    },
+    "id": 16,
+    "name": "dragon",
+    "past_damage_relations": [],
+    "generation_name": "generation-i"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "ghost"
+        },
+        {
+          "name": "psychic"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "ghost"
+        },
+        {
+          "name": "dark"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "dark"
+        },
+        {
+          "name": "fairy"
+        }
+      ],
+      "no_damage_from": [
+        {
+          "name": "psychic"
+        }
+      ],
+      "no_damage_to": []
+    },
+    "id": 17,
+    "name": "dark",
+    "past_damage_relations": [
+      {
+        "damage_relations": {
+          "double_damage_from": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "bug"
+            }
+          ],
+          "double_damage_to": [
+            {
+              "name": "ghost"
+            },
+            {
+              "name": "psychic"
+            }
+          ],
+          "half_damage_from": [
+            {
+              "name": "ghost"
+            },
+            {
+              "name": "dark"
+            }
+          ],
+          "half_damage_to": [
+            {
+              "name": "fighting"
+            },
+            {
+              "name": "dark"
+            },
+            {
+              "name": "steel"
+            }
+          ],
+          "no_damage_from": [
+            {
+              "name": "psychic"
+            }
+          ],
+          "no_damage_to": []
+        },
+        "generation": {
+          "name": "generation-v"
+        }
+      }
+    ],
+    "generation_name": "generation-ii"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [
+        {
+          "name": "poison"
+        },
+        {
+          "name": "steel"
+        }
+      ],
+      "double_damage_to": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "dragon"
+        },
+        {
+          "name": "dark"
+        }
+      ],
+      "half_damage_from": [
+        {
+          "name": "fighting"
+        },
+        {
+          "name": "bug"
+        },
+        {
+          "name": "dark"
+        }
+      ],
+      "half_damage_to": [
+        {
+          "name": "poison"
+        },
+        {
+          "name": "steel"
+        },
+        {
+          "name": "fire"
+        }
+      ],
+      "no_damage_from": [
+        {
+          "name": "dragon"
+        }
+      ],
+      "no_damage_to": []
+    },
+    "id": 18,
+    "name": "fairy",
+    "past_damage_relations": [],
+    "generation_name": "generation-vi"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [],
+      "double_damage_to": [],
+      "half_damage_from": [],
+      "half_damage_to": [],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "id": 10001,
+    "name": "unknown",
+    "past_damage_relations": [],
+    "generation_name": "generation-ii"
+  },
+  {
+    "damage_relations": {
+      "double_damage_from": [],
+      "double_damage_to": [],
+      "half_damage_from": [],
+      "half_damage_to": [],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "id": 10002,
+    "name": "shadow",
+    "past_damage_relations": [],
+    "generation_name": "generation-iii"
+  }
+]

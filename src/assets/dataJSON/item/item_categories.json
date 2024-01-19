@@ -1,0 +1,267 @@
+[
+  {
+    "id": 1,
+    "pocket_name": "battle",
+    "item_category_name": "stat-boosts"
+  },
+  {
+    "id": 2,
+    "pocket_name": "berries",
+    "item_category_name": "effort-drop"
+  },
+  {
+    "id": 3,
+    "pocket_name": "berries",
+    "item_category_name": "medicine"
+  },
+  {
+    "id": 4,
+    "pocket_name": "berries",
+    "item_category_name": "other"
+  },
+  {
+    "id": 5,
+    "pocket_name": "berries",
+    "item_category_name": "in-a-pinch"
+  },
+  {
+    "id": 6,
+    "pocket_name": "berries",
+    "item_category_name": "picky-healing"
+  },
+  {
+    "id": 7,
+    "pocket_name": "berries",
+    "item_category_name": "type-protection"
+  },
+  {
+    "id": 8,
+    "pocket_name": "berries",
+    "item_category_name": "baking-only"
+  },
+  {
+    "id": 9,
+    "pocket_name": "misc",
+    "item_category_name": "collectibles"
+  },
+  {
+    "id": 10,
+    "pocket_name": "misc",
+    "item_category_name": "evolution"
+  },
+  {
+    "id": 11,
+    "pocket_name": "misc",
+    "item_category_name": "spelunking"
+  },
+  {
+    "id": 12,
+    "pocket_name": "misc",
+    "item_category_name": "held-items"
+  },
+  {
+    "id": 13,
+    "pocket_name": "misc",
+    "item_category_name": "choice"
+  },
+  {
+    "id": 14,
+    "pocket_name": "misc",
+    "item_category_name": "effort-training"
+  },
+  {
+    "id": 15,
+    "pocket_name": "misc",
+    "item_category_name": "bad-held-items"
+  },
+  {
+    "id": 16,
+    "pocket_name": "misc",
+    "item_category_name": "training"
+  },
+  {
+    "id": 17,
+    "pocket_name": "misc",
+    "item_category_name": "plates"
+  },
+  {
+    "id": 18,
+    "pocket_name": "misc",
+    "item_category_name": "species-specific"
+  },
+  {
+    "id": 19,
+    "pocket_name": "misc",
+    "item_category_name": "type-enhancement"
+  },
+  {
+    "id": 20,
+    "pocket_name": "key",
+    "item_category_name": "event-items"
+  },
+  {
+    "id": 21,
+    "pocket_name": "key",
+    "item_category_name": "gameplay"
+  },
+  {
+    "id": 22,
+    "pocket_name": "key",
+    "item_category_name": "plot-advancement"
+  },
+  {
+    "id": 23,
+    "pocket_name": "key",
+    "item_category_name": "unused"
+  },
+  {
+    "id": 24,
+    "pocket_name": "misc",
+    "item_category_name": "loot"
+  },
+  {
+    "id": 25,
+    "pocket_name": "mail",
+    "item_category_name": "all-mail"
+  },
+  {
+    "id": 26,
+    "pocket_name": "medicine",
+    "item_category_name": "vitamins"
+  },
+  {
+    "id": 27,
+    "pocket_name": "medicine",
+    "item_category_name": "healing"
+  },
+  {
+    "id": 28,
+    "pocket_name": "medicine",
+    "item_category_name": "pp-recovery"
+  },
+  {
+    "id": 29,
+    "pocket_name": "medicine",
+    "item_category_name": "revival"
+  },
+  {
+    "id": 30,
+    "pocket_name": "medicine",
+    "item_category_name": "status-cures"
+  },
+  {
+    "id": 32,
+    "pocket_name": "misc",
+    "item_category_name": "mulch"
+  },
+  {
+    "id": 33,
+    "pocket_name": "pokeballs",
+    "item_category_name": "special-balls"
+  },
+  {
+    "id": 34,
+    "pocket_name": "pokeballs",
+    "item_category_name": "standard-balls"
+  },
+  {
+    "id": 35,
+    "pocket_name": "misc",
+    "item_category_name": "dex-completion"
+  },
+  {
+    "id": 36,
+    "pocket_name": "misc",
+    "item_category_name": "scarves"
+  },
+  {
+    "id": 37,
+    "pocket_name": "machines",
+    "item_category_name": "all-machines"
+  },
+  {
+    "id": 38,
+    "pocket_name": "battle",
+    "item_category_name": "flutes"
+  },
+  {
+    "id": 39,
+    "pocket_name": "pokeballs",
+    "item_category_name": "apricorn-balls"
+  },
+  {
+    "id": 40,
+    "pocket_name": "key",
+    "item_category_name": "apricorn-box"
+  },
+  {
+    "id": 41,
+    "pocket_name": "key",
+    "item_category_name": "data-cards"
+  },
+  {
+    "id": 42,
+    "pocket_name": "misc",
+    "item_category_name": "jewels"
+  },
+  {
+    "id": 43,
+    "pocket_name": "battle",
+    "item_category_name": "miracle-shooter"
+  },
+  {
+    "id": 44,
+    "pocket_name": "misc",
+    "item_category_name": "mega-stones"
+  },
+  {
+    "id": 45,
+    "pocket_name": "misc",
+    "item_category_name": "memories"
+  },
+  {
+    "id": 46,
+    "pocket_name": "key",
+    "item_category_name": "z-crystals"
+  },
+  {
+    "id": 47,
+    "pocket_name": "misc",
+    "item_category_name": "species-candies"
+  },
+  {
+    "id": 48,
+    "pocket_name": "berries",
+    "item_category_name": "catching-bonus"
+  },
+  {
+    "id": 49,
+    "pocket_name": "misc",
+    "item_category_name": "dynamax-crystals"
+  },
+  {
+    "id": 50,
+    "pocket_name": "medicine",
+    "item_category_name": "nature-mints"
+  },
+  {
+    "id": 51,
+    "pocket_name": "misc",
+    "item_category_name": "curry-ingredients"
+  },
+  {
+    "id": 52,
+    "pocket_name": "misc",
+    "item_category_name": "tera-shard"
+  },
+  {
+    "id": 53,
+    "pocket_name": "misc",
+    "item_category_name": "sandwich-ingredients"
+  },
+  {
+    "id": 54,
+    "pocket_name": "misc",
+    "item_category_name": "tm-materials"
+  }
+]
