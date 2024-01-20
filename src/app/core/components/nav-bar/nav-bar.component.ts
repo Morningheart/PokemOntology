@@ -1,5 +1,4 @@
-import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { AuthService } from '../../services/auth/auth.service';
+import { Component } from '@angular/core';
 import { BaseAppComponent } from '../base-app/base-app.component';
 import { Themes } from '../../constants/themes';
 import { ThemeService } from '../../services/theme/theme.service';
@@ -10,10 +9,7 @@ import { ThemeService } from '../../services/theme/theme.service';
   styleUrls: ['./nav-bar.component.scss'],
 })
 export class NavBarComponent extends BaseAppComponent {
-  constructor(
-    public readonly authService: AuthService,
-    private themeService: ThemeService
-  ) {
+  constructor(private themeService: ThemeService) {
     super();
   }
   public themes = Themes;

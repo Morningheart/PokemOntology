@@ -9,7 +9,7 @@
       <div
         id="graph"
         class="bg-base-200 rounded-box w-11/12 p-2 mt-5"
-        style="height: 550px"></div>
+        style="height: 500px"></div>
     </div>
   </div>
   <div class="d-drawer-side">
@@ -19,26 +19,58 @@
       class="d-drawer-overlay"></label>
     <ul
       class="d-menu d-rounded-box p-4 w-80 min-h-full bg-base-200 text-base-content">
-      <li><a>Item 1</a></li>
       <li>
         <details open>
           <summary>Category</summary>
           <ul>
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
             <li>
-              <details open>
-                <summary>Parent</summary>
+              <details>
+                <summary>Types</summary>
+                <ul id="type-all">
+                  <li>
+                    <label class="d-label cursor-pointer">
+                      <span class="d-label-text">All</span>
+                      <input
+                        type="checkbox"
+                        [checked]="true"
+                        (change)="selectAllTypes($event)"
+                        class="d-checkbox d-checkbox-sm" />
+                    </label>
+                  </li>
+                  <li class="d-form-control" *ngFor="let type of pokemonTypes">
+                    <label class="d-label cursor-pointer">
+                      <span class="d-label-text">{{ type }}</span>
+                      <input
+                        [id]="'type-' + type"
+                        type="checkbox"
+                        checked="checked"
+                        class="d-checkbox d-checkbox-sm"
+                        (change)="updateAllTypes()" />
+                    </label>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Pokemon</summary>
                 <ul>
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
+                  <li class="d-form-control" *ngFor="let poke of pokemonNames">
+                    <label class="d-label cursor-pointer">
+                      <span class="d-label-text">{{ poke }}</span>
+                      <input
+                        type="checkbox"
+                        checked="checked"
+                        class="d-checkbox d-checkbox-sm"
+                        [id]="poke" />
+                    </label>
+                  </li>
                 </ul>
               </details>
             </li>
           </ul>
         </details>
       </li>
-      <li><a>Item 3</a></li>
     </ul>
   </div>
 </div>

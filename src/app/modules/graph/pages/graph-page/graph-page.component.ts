@@ -33,6 +33,17 @@ export class GraphPageComponent {
   echartsTheme!: string;
   haveLoaded: boolean = false;
   myChart!: echarts.ECharts;
+
+  // Elements
+  categories: Category[] = [{ name: 'Types' }, { name: 'Pokemons' }];
+  pokemonTypes: string[] = types.map((element: any) => {
+    return element['name'];
+  });
+  pokemonNames: string[] = pokemons.map((element: any) => {
+    return element['pokemon_name'];
+  });
+
+  // Variables
   id: number = 0;
 
   constructor(private themeService: ThemeService) {
@@ -52,6 +63,60 @@ export class GraphPageComponent {
         this.haveLoaded = true;
       }
     });
+  }
+
+  selectAllTypes(event: Event) {
+    let selected = (event.target as HTMLInputElement).checked;
+    let types = document.getElementById('type-all') as HTMLUListElement;
+    for (let i = 0; i < types.children.length; i++) {
+      (types.children[i].children[0].children[1] as HTMLInputElement).checked =
+        selected;
+      (
+        types.children[i].children[0].children[1] as HTMLInputElement
+      ).indeterminate = false;
+    }
+  }
+
+  updateAllTypes() {
+    let types = document.getElementById('type-all') as HTMLUListElement;
+    let countTrue = 0;
+    let countFalse = 0;
+    for (let i = 0; i < types.children.length; i++) {
+      if (
+        (types.children[i].children[0].children[1] as HTMLInputElement).checked
+      )
+        countTrue += 1;
+      else countFalse += 1;
+    }
+    if (countTrue == types.children.length) {
+      (types.children[0].children[0].children[1] as HTMLInputElement).checked =
+        true;
+      (
+        types.children[0].children[0].children[1] as HTMLInputElement
+      ).indeterminate = false;
+    } else if (countFalse == types.children.length) {
+      (types.children[0].children[0].children[1] as HTMLInputElement).checked =
+        true;
+      (
+        types.children[0].children[0].children[1] as HTMLInputElement
+      ).indeterminate = false;
+    } else if (
+      countTrue == 1 &&
+      (types.children[0].children[0].children[1] as HTMLInputElement).checked
+    ) {
+      (types.children[0].children[0].children[1] as HTMLInputElement).checked =
+        false;
+      (
+        types.children[0].children[0].children[1] as HTMLInputElement
+      ).indeterminate = false;
+    } else {
+      (types.children[0].children[0].children[1] as HTMLInputElement).checked =
+        true;
+      (
+        types.children[0].children[0].children[1] as HTMLInputElement
+      ).indeterminate = true;
+    }
+    console.log(countTrue, countFalse);
   }
 
   addNodes(nodes: any[], data: any, type: string) {
@@ -221,12 +286,10 @@ export class GraphPageComponent {
   ngOnInit() {
     let graph: Graph = { nodes: [], links: [] };
     this.addNodes(graph.nodes, types, 'Types');
-    this.addNodes(graph.nodes, pokemons, 'Pokemons');
+    // this.addNodes(graph.nodes, pokemons, 'Pokemons');
 
     this.addLinks(graph.links, types, 'Types', graph.nodes);
     this.addLinks(graph.links, pokemons, 'Pokemons', graph.nodes);
-
-    let categories: Category[] = [{ name: 'Types' }, { name: 'Pokemons' }];
 
     this.echartsOptions = {
       title: {},
@@ -240,7 +303,7 @@ export class GraphPageComponent {
       },
       legend: [
         {
-          data: categories.map(function (a) {
+          data: this.categories.map(function (a) {
             return a.name;
           }),
         },
@@ -255,7 +318,7 @@ export class GraphPageComponent {
           layout: 'force',
           data: graph.nodes,
           links: graph.links,
-          categories: categories,
+          categories: this.categories,
           roam: true,
           itemStyle: {
             borderColor: '#fff',

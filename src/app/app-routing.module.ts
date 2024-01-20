@@ -15,18 +15,6 @@ const routes: Routes = [
       import('./modules/home/home.module').then(m => m.HomeModule),
   },
   {
-    path: ROUTES.authentification,
-    loadChildren: () =>
-      import('./modules/authentification/authentification.module').then(
-        m => m.AuthentificationModule
-      ),
-  },
-  {
-    path: ROUTES.user,
-    loadChildren: () =>
-      import('./modules/user/user.module').then(m => m.UserModule),
-  },
-  {
     path: ROUTES.graph,
     loadChildren: () =>
       import('./modules/graph/graph.module').then(m => m.GraphModule),
